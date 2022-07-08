@@ -11,10 +11,10 @@ pdf: out/${BOOK_NAME}.pdf
 
 epub: out/${BOOK_NAME}.epub
 
-out/uw-it-managers.pdf: src/*
+out/${BOOK_NAME}.pdf: src/*
 	pandoc ${PANDOC_OPTIONS} -o $@ -H style/header.tex ${FILES_TO_COMPILE}
 
-out/uw-it-managers.epub: src/*
+out/${BOOK_NAME}.epub: src/*
 	pandoc ${PANDOC_OPTIONS} -o $@ ${FILES_TO_COMPILE}
 
 clean:
