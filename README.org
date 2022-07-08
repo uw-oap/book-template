@@ -1,0 +1,5 @@
+* Book template
+
+The purpose of this project is to be a template for books/manuals that consist of text files such as org-mode files.
+
+To use it, you will need access to make and pandoc.

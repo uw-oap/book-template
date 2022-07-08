@@ -1,0 +1,23 @@
+* Chapters
+
+Each file in `src/*.org` corresponds to a chapter.
+
+Each chapter file should begin with
+
+    * Chapter title
+
+* General styling
+
+** Footnotes
+
+Footnotes should be named references, ideally beginning with the filename number. For example, a footnote in =010-introduction.org= might be called =010_1=.
+
+* PDF output
+
+Output-specific style support should go into `style/`.
+
+PDFs are created via pandoc using LaTeX. To change the general LaTeX formatting, edit `style/header.tex`.
+
+To see the out-of-the-box pandoc variables, use
+
+    pandoc -D latex

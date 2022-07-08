@@ -1,0 +1,13 @@
+# -*- mode: yaml -*-
+---
+title: FIXME
+lang: en-US
+# geometry:
+# - margin=1in
+pagestyle: headings
+colorlinks: true
+toc: true
+numbersections: true
+fontfamily: opensans
+fontfamilyoptions: default
+...
